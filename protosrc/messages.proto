@@ -1,0 +1,9 @@
+syntax = "proto3";
+package messaging;
+
+option go_package = "/netms";
+
+message Test {
+    int32 my_int = 1;
+    string my_name = 2;
+}

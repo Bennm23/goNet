@@ -1,0 +1,9 @@
+go 1.21.4
+
+use (
+	./comms
+	./comms/client
+	./comms/multicast
+	./comms/tcp
+	./protos
+)
